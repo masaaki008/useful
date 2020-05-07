@@ -1,0 +1,34 @@
+{
+    "editor.dragAndDrop": false,
+    "editor.renderWhitespace": "all",
+    "files.insertFinalNewline": true,
+    "editor.renderControlCharacters": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.copyOnSelection": true,
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "Solarized Custom Dark Italic",
+    "editor.fontSize": 11,
+    "python.pythonPath": "/Users/masaaki/.pyenv/shims/python",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "workbench.iconTheme": "vs-nomo-dark",
+    "go.useLanguageServer": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "files.autoSave": "onFocusChange",
+    "files.trimFinalNewlines": true,
+    "trailing-spaces.trimOnSave": true,
+    "trailing-spaces.syntaxIgnore": [
+        "markdown"
+    ],
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#00ccff8a"
+    },
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": true
+    },
+    "files.exclude": {
+        "**/.git": false
+    }
+}

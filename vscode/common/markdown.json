@@ -1,0 +1,183 @@
+{
+	"cspan": {
+		"prefix": "cspan",
+		"body": [
+			"<span style=\"color: \"></span>"
+		],
+		"description": "文字に色付け"
+	},
+	"spanmagenta": {
+		"prefix": "spanmagenta",
+		"body": [
+			"<span style=\"color: magenta\"></span>"
+		],
+		"description": "文字色マゼンタ"
+	},
+	"spanskyblue": {
+		"prefix": "spanskyblue",
+		"body": [
+			"<span style=\"color: skyblue\"></span>"
+		],
+		"description": "文字色水色"
+	},
+	"spanyellowgreen": {
+		"prefix": "spanyellowgreen",
+		"body": [
+			"<span style=\"color: yellowgreen\"></span>"
+		],
+		"description": "文字色黄緑"
+	},
+	"spanyellow": {
+		"prefix": "spanyellow",
+		"body": [
+			"<span style=\"color: yellow\"></span>"
+		],
+		"description": "文字色黄色"
+	},
+	"hr": {
+		"prefix": "hr",
+		"body": [
+			"***"
+		],
+		"description": "アンダーライン"
+	},
+	"bl": {
+		"prefix": "bl",
+		"body": [
+			"~~${1:value}~~"
+		],
+		"description": "破線"
+	},
+	"br": {
+		"prefix": "br",
+		"body": [
+			"",
+			"<br>",
+			"",
+			""
+		],
+		"description": "改行"
+	},
+	"brp": {
+		"prefix": "brp",
+		"body": [
+			"<br>"
+		],
+		"description": "ポイント改行"
+	},
+	"table2": {
+		"prefix": "table2",
+		"body": [
+			"|||",
+			"|---|---|",
+			"|||"
+		],
+		"description": "2列テーブル"
+	},
+	"row2": {
+		"prefix": "row2",
+		"body": [
+			"|||"
+		],
+		"description": "2列テーブルの行を追加"
+	},
+	"table3": {
+		"prefix": "table3",
+		"body": [
+			"||||",
+			"|---|---|---|",
+			"||||"
+		],
+		"description": "3列テーブル"
+	},
+	"row3": {
+		"prefix": "row3",
+		"body": [
+			"||||"
+		],
+		"description": "3列テーブルの行を追加"
+	},
+	"table4": {
+		"prefix": "table4",
+		"body": [
+			"|||||",
+			"|---|---|---|---|",
+			"|||||"
+		],
+		"description": "4列テーブル"
+	},
+	"row4": {
+		"prefix": "row4",
+		"body": [
+			"|||||"
+		],
+		"description": "4列テーブルの行を追加"
+	},
+	"table5": {
+		"prefix": "table5",
+		"body": [
+			"||||||",
+			"|---|---|---|---|---|",
+			"||||||"
+		],
+		"description": "5列テーブル"
+	},
+	"row5": {
+		"prefix": "row5",
+		"body": [
+			"||||||"
+		],
+		"description": "5列テーブルの行を追加"
+	},
+	"dcode": {
+		"prefix": "dcode",
+		"body": [
+			"```${1:lang}",
+			"${2:code}",
+			"```"
+		],
+		"description": "深いコード"
+	},
+	"h1": {
+		"prefix": "h1",
+		"body": [
+			"# "
+		],
+		"description": "h1"
+	},
+	"h2": {
+		"prefix": "h2",
+		"body": [
+			"## "
+		],
+		"description": "h2"
+	},
+	"h3": {
+		"prefix": "h3",
+		"body": [
+			"### "
+		],
+		"description": "h3"
+	},
+	"h4": {
+		"prefix": "h4",
+		"body": [
+			"#### "
+		],
+		"description": "h4"
+	},
+	"h5": {
+		"prefix": "h5",
+		"body": [
+			"##### "
+		],
+		"description": "h5"
+	},
+	"h6": {
+		"prefix": "h6",
+		"body": [
+			"###### "
+		],
+		"description": "h6"
+	}
+}

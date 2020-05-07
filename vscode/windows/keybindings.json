@@ -1,0 +1,27 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "ctrl+m oem_comma",
+        "command": "markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k v",
+        "command": "-markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'powershell'"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "-editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'powershell'"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "editor.action.showSnippets"
+    }
+]
