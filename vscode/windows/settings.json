@@ -32,5 +32,7 @@
         "editor.wordWrap": "on",
         "editor.quickSuggestions": true
     },
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "git.autofetch": true,
+    "markdown-preview-enhanced.mermaidTheme": "default"
 }

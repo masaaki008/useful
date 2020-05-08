@@ -1,15 +1,4 @@
-// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
 [
-    {
-        "key": "ctrl+m oem_comma",
-        "command": "markdown.showPreviewToSide",
-        "when": "editorLangId == 'markdown'"
-    },
-    {
-        "key": "ctrl+k v",
-        "command": "-markdown.showPreviewToSide",
-        "when": "editorLangId == 'markdown'"
-    },
     {
         "key": "ctrl+alt+p",
         "command": "editor.action.insertSnippet",
@@ -23,5 +12,27 @@
     {
         "key": "ctrl+alt+p",
         "command": "editor.action.showSnippets"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "-workbench.action.output.toggleOutput"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+m oem_comma",
+        "command": "markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k v",
+        "command": "-markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
     }
 ]
