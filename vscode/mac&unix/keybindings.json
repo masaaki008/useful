@@ -1,7 +1,7 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "cmd+k v",
+        "key": "ctrl+m",
         "command": "markdown.showPreviewToSide",
         "when": "editorLangId == 'markdown'"
     },
@@ -17,5 +17,15 @@
     {
         "key": "ctrl+shift+l",
         "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "alt+m",
+        "command": "markdown-preview-enhanced.openPreviewToTheSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "cmd+k v",
+        "command": "-markdown-preview-enhanced.openPreviewToTheSide",
+        "when": "editorLangId == 'markdown'"
     }
 ]
