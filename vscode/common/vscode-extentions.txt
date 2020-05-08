@@ -58,3 +58,4 @@ code --install-extentions wart.ariake-dark
 code --install-extentions wholroyd.jinja
 code --install-extentions xabikos.JavaScriptSnippets
 code --install-extentions yzane.markdown-pdf
+code --install-extentions goessner.mdmath
