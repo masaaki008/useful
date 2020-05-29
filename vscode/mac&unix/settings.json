@@ -31,5 +31,14 @@
     "files.exclude": {
         "**/.git": false
     },
+    "window.zoomLevel": 0,
+    "C_Cpp.updateChannel": "Insiders",
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && rm $dir/$fileNameWithoutExt && clang++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir/$fileNameWithoutExt",
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "lldb.launch.expressions": "native",
     "editor.minimap.maxColumn": 70
 }

@@ -16,6 +16,7 @@ code --install-extensions eamodio.gitlens
 code --install-extensions fivethree.vscode-ionic-snippets
 code --install-extensions formulahendry.auto-close-tag
 code --install-extensions formulahendry.auto-rename-tag
+code --install-extensions formulahendry.code-runner
 code --install-extensions formulahendry.terminal
 code --install-extensions goessner.mdmath
 code --install-extensions hollowtree.vue-snippets
@@ -36,6 +37,7 @@ code --install-extensions mrmlnc.vscode-duplicate
 code --install-extensions MS-CEINTL.vscode-language-pack-ja
 code --install-extensions ms-mssql.mssql
 code --install-extensions ms-python.python
+code --install-extensions ms-vscode.cpptools
 code --install-extensions ms-vscode.Go
 code --install-extensions mtxr.sqltools
 code --install-extensions nathanchapman.JavaScriptSnippets
@@ -54,6 +56,7 @@ code --install-extensions tht13.python
 code --install-extensions tomoki1207.pdf
 code --install-extensions tushortz.python-extended-snippets
 code --install-extensions UVBrain.Angular2
+code --install-extensions vadimcn.vscode-lldb
 code --install-extensions VisualStudioExptTeam.vscodeintellicode
 code --install-extensions vscode-icons-team.vscode-icons
 code --install-extensions wart.ariake-dark
