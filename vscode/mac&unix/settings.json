@@ -40,5 +40,5 @@
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
     "lldb.launch.expressions": "native",
-    "editor.minimap.maxColumn": 70
+    "editor.minimap.maxColumn": 55
 }

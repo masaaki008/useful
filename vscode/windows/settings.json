@@ -35,5 +35,5 @@
     "extensions.ignoreRecommendations": false,
     "git.autofetch": true,
     "markdown-preview-enhanced.mermaidTheme": "default",
-    "editor.minimap.maxColumn": 70
+    "editor.minimap.maxColumn": 55
 }
