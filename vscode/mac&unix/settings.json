@@ -1,44 +1,103 @@
 {
     "editor.dragAndDrop": false,
-    "editor.renderWhitespace": "all",
-    "files.insertFinalNewline": true,
     "editor.renderControlCharacters": true,
-    "editor.wordWrap": "on",
-    "terminal.integrated.copyOnSelection": true,
-    "breadcrumbs.enabled": true,
-    "workbench.colorTheme": "Solarized Custom Dark Italic",
-    "editor.fontSize": 11,
-    "python.pythonPath": "/Users/masaaki/.pyenv/shims/python",
+    "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false,
-    "workbench.iconTheme": "vs-nomo-dark",
-    "go.useLanguageServer": true,
-    "vsicons.dontShowNewVersionMessage": true,
-    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 11,
+    "editor.minimap.maxColumn": 55,
+    "editor.wordWrap": "on",
+
+    "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "files.autoSave": "onFocusChange",
+
+    "workbench.colorTheme": "Solarized Custom Dark Italic",
+    "workbench.iconTheme": "vs-nomo-dark",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#00ccff8a"
+    },
+
     "trailing-spaces.trimOnSave": true,
     "trailing-spaces.syntaxIgnore": [
         "markdown"
     ],
-    "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#00ccff8a"
-    },
+
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.inheritEnv": false,
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vsicons.dontShowNewVersionMessage": true,
+    "breadcrumbs.enabled": true,
+    "window.zoomLevel": 0,
+
     "[markdown]": {
         "editor.wordWrap": "on",
         "editor.quickSuggestions": true
     },
+
     "files.exclude": {
         "**/.git": false
     },
-    "window.zoomLevel": 0,
-    "C_Cpp.updateChannel": "Insiders",
+
+    // code runner
     "code-runner.executorMap": {
-        "cpp": "cd $dir && rm $dir/$fileNameWithoutExt && clang++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir/$fileNameWithoutExt"
+        //"cpp": "cd $dir && rm -f $dir$fileNameWithoutExt && time g++ -std=c++17 -Wall --pedantic-errors $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && make",
+        "go": "go run",
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
+
+    // c++
+    "C_Cpp.updateChannel": "Insiders",
     "lldb.launch.expressions": "native",
-    "editor.minimap.maxColumn": 55
+
+    // python
+    "python.jediEnabled": false,
+    "python.languageServer": "Microsoft",
+
+    // go
+    "go.gopath": "/Users/masaaki/go/1.14.2",
+    "go.goroot": "/Users/masaaki/.anyenv/envs/goenv/versions/1.14.2",
+    "go.toolsEnvVars": {"GO111MODULE": "on"},
+    "go.formatTool": "gofmt",
+    "go.lintTool": "golint",
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+        "go-langserver": "gopls"
+    },
+    "go.languageServerExperimentalFeatures": {
+        "format": true,
+        "autoComplete": true,
+        "rename": true,
+        "goToDefinition": true,
+        "hover": true,
+        "signatureHelp": true,
+        "goToTypeDefinition": true,
+        "goToImplementation": true,
+        "documentSymbols": true,
+        "workspaceSymbols": true,
+        "findReferences": true,
+        "diagnostics": true
+    },
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "gopls": {
+        "hoverKind": "SynopsisDocumentation",
+        "usePlaceholders": true,
+        "linkTarget": "pkg.go.dev",
+        "staticcheck": false,
+        "completionDocumentation": true,
+        "completeUnimported": true,
+        "deepCompletion": true,
+    },
+
+    // drowio
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7YXdzNDthd3MzZDthenVyZVwiLFwiY3VzdG9tTGlicmFyaWVzXCI6W1wiTC5zY3JhdGNocGFkXCJdLFwicGx1Z2luc1wiOltdLFwicmVjZW50Q29sb3JzXCI6W10sXCJmb3JtYXRXaWR0aFwiOlwiMjQwXCIsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjo4NTAsXCJoZWlnaHRcIjoxMTAwfSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
 }

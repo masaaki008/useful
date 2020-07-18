@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# インストールパッケージ一覧
+pkglist=(
 alexcvzz.vscode-sqlite
 batisteo.vscode-django
 bbrakenhoff.solarized-light-custom
@@ -48,3 +52,8 @@ wholroyd.jinja
 xabikos.JavaScriptSnippets
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
+)
+
+for i in ${pkglist[@]}; do
+    code --install-extension $i
+done
