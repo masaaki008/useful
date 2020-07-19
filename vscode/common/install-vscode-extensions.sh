@@ -2,6 +2,7 @@
 
 # インストールパッケージ一覧
 pkglist=(
+8amjp.charactercount
 alexcvzz.vscode-sqlite
 batisteo.vscode-django
 bbrakenhoff.solarized-light-custom
