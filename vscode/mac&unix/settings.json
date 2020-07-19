@@ -85,7 +85,7 @@
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
-        },
+        }
     },
     "gopls": {
         "hoverKind": "SynopsisDocumentation",
