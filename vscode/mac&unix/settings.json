@@ -10,6 +10,9 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": false
+    },
 
     "workbench.colorTheme": "Solarized Custom Dark Italic",
     "workbench.iconTheme": "vs-nomo-dark",
@@ -33,10 +36,6 @@
     "[markdown]": {
         "editor.wordWrap": "on",
         "editor.quickSuggestions": true
-    },
-
-    "files.exclude": {
-        "**/.git": false
     },
 
     // code runner
@@ -86,7 +85,7 @@
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
-        }
+        },
     },
     "gopls": {
         "hoverKind": "SynopsisDocumentation",
