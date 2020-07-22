@@ -1,39 +1,97 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
     "editor.renderWhitespace": "all",
-    "workbench.colorTheme": "Solarized Custom Dark Italic",
-    "terminal.explorerKind": "external",
-    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+    "editor.tabCompletion": "on",
+    "editor.trimAutoWhitespace": false,
     "editor.fontSize": 13,
+    "editor.minimap.maxColumn": 55,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
     "files.autoSave": "onFocusChange",
-    "workbench.tree.indent": 6,
-    "workbench.activityBar.visible": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+    "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": false,
-    "editor.tabCompletion": "on",
-    "vsicons.dontShowNewVersionMessage": true,
-    "editor.trimAutoWhitespace": false,
+    "files.exclude": {
+        "**/.git": false
+    },
+
+    "workbench.colorTheme": "Solarized Custom Dark Italic",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 15,
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#fcadfc7a"
+    },
+
     "trailing-spaces.trimOnSave": true,
     "trailing-spaces.syntaxIgnore": [
         "markdown"
     ],
+
+    "terminal.explorerKind": "external",
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+
+    // 前回開いてたのを開かない
     "window.restoreWindows": "none",
-    "files.exclude": {
-        "**/.git": false
-    },
-    "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#fcadfc7a"
-    },
+    "window.zoomLevel": 0,
+
+    "extensions.ignoreRecommendations": true,
+    "git.autofetch": true,
+
     // マークダウンの設定
     "[markdown]": {
         "editor.wordWrap": "on",
         "editor.quickSuggestions": true
     },
-    "extensions.ignoreRecommendations": false,
-    "git.autofetch": true,
     "markdown-preview-enhanced.mermaidTheme": "default",
-    "editor.minimap.maxColumn": 55
+
+    // code runner
+    "code-runner.executorMap": {
+        //"cpp": "cd $dir && rm -f $dir$fileNameWithoutExt && time g++ -std=c++17 -Wall --pedantic-errors $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && make",
+        "go": "go run"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+
+    // go
+    "go.gopath": "C:/Users/nakamura-ma/go",
+    "go.goroot": "C:/go",
+    "go.toolsEnvVars": {"GO111MODULE": "on"},
+    "go.formatTool": "gofmt",
+    "go.lintTool": "golint",
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+        "go-langserver": "gopls"
+    },
+    "go.languageServerExperimentalFeatures": {
+        "format": true,
+        "autoComplete": true,
+        "rename": true,
+        "goToDefinition": true,
+        "hover": true,
+        "signatureHelp": true,
+        "goToTypeDefinition": true,
+        "goToImplementation": true,
+        "documentSymbols": true,
+        "workspaceSymbols": true,
+        "findReferences": true,
+        "diagnostics": true
+    },
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "gopls": {
+        "hoverKind": "SynopsisDocumentation",
+        "usePlaceholders": true,
+        "linkTarget": "pkg.go.dev",
+        "staticcheck": false,
+        "completionDocumentation": true,
+        "completeUnimported": true,
+        "deepCompletion": true
+    },
 }

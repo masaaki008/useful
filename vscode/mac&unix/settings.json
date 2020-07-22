@@ -7,15 +7,17 @@
     "editor.minimap.maxColumn": 55,
     "editor.wordWrap": "on",
 
+    "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": false,
     "files.exclude": {
         "**/.git": false
     },
 
     "workbench.colorTheme": "Solarized Custom Dark Italic",
     "workbench.iconTheme": "vs-nomo-dark",
+    "workbench.tree.indent": 15,
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#00ccff8a"
     },
@@ -31,8 +33,14 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "vsicons.dontShowNewVersionMessage": true,
     "breadcrumbs.enabled": true,
+
+    // 前回開いてたのを開かない
+    "window.restoreWindows": "none",
     "window.zoomLevel": 0,
 
+    "extensions.ignoreRecommendations": true,
+
+    // マークダウンの設定
     "[markdown]": {
         "editor.wordWrap": "on",
         "editor.quickSuggestions": true
