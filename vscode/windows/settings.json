@@ -93,5 +93,5 @@
         "completionDocumentation": true,
         "completeUnimported": true,
         "deepCompletion": true
-    },
+    }
 }
