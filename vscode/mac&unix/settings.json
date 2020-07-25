@@ -11,6 +11,7 @@
     "editor.minimap.maxColumn": 55,
     "editor.wordWrap": "off", // 折り返しの有無
     "editor.rulers": [80], // 80文字の位置に線を引く
+    "editor.renderLineHighlight": "all", // 選択行の行番号ハイライト
 
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
@@ -25,7 +26,7 @@
     "workbench.activityBar.visible": false,
     "workbench.tree.indent": 15,
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#00ccff8a"
+        "editor.selectionBackground": "#fcadfc7a"
     },
 
     "trailing-spaces.trimOnSave": true,
@@ -39,11 +40,14 @@
     "window.restoreWindows": "none", // 前回開いてたのを開かない
     "window.zoomLevel": 0,
 
-    "extensions.ignoreRecommendations": true,
-    "git.autofetch": true,
+    // 拡張機能
+    "extensions.ignoreRecommendations": true, // 拡張機能のおすすめを非表示
+    "extensions.autoUpdate": true, // 拡張機能を自動更新
 
     // ブレッドキャンバス
     "breadcrumbs.enabled": true,
+
+    "git.autofetch": true,
 
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "vsicons.dontShowNewVersionMessage": true,
