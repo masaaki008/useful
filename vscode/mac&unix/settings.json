@@ -6,7 +6,7 @@
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
-    "editor.fontSize": 13,
+    "editor.fontSize": 12,
     "editor.letterSpacing": 0.01, // 文字の間隔
     "editor.minimap.maxColumn": 55,
     "editor.wordWrap": "off", // 折り返しの有無
