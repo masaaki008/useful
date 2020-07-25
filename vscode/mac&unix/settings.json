@@ -1,9 +1,13 @@
 {
-    "editor.dragAndDrop": false,
+    "editor.tabCompletion": "on", // プレフィックスが一致する場合、Tabを押したときにスニペットを挿入するかどうか
+    "editor.trimAutoWhitespace": false,
+    "editor.dragAndDrop": false, // 選択した部分のドラッグアンドドロップを許可するかどうか
+    "editor.renderIndentGuides": true,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
-    "editor.fontSize": 11,
+    "editor.fontSize": 13,
+    "editor.letterSpacing": 0.01, // 文字の間隔
     "editor.minimap.maxColumn": 55,
     "editor.wordWrap": "off", // 折り返しの有無
     "editor.rulers": [80], // 80文字の位置に線を引く
@@ -32,15 +36,17 @@
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.inheritEnv": false,
 
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "vsicons.dontShowNewVersionMessage": true,
-    "breadcrumbs.enabled": true,
-
-    // 前回開いてたのを開かない
-    "window.restoreWindows": "none",
+    "window.restoreWindows": "none", // 前回開いてたのを開かない
     "window.zoomLevel": 0,
 
     "extensions.ignoreRecommendations": true,
+    "git.autofetch": true,
+
+    // ブレッドキャンバス
+    "breadcrumbs.enabled": true,
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vsicons.dontShowNewVersionMessage": true,
 
     // マークダウンの設定
     "[markdown]": {

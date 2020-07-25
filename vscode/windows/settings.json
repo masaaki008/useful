@@ -1,10 +1,16 @@
 {
-    "editor.renderWhitespace": "all",
-    "editor.tabCompletion": "on",
+    "editor.tabCompletion": "on", // プレフィックスが一致する場合、Tabを押したときにスニペットを挿入するかどうか
     "editor.trimAutoWhitespace": false,
-    "editor.fontSize": 13,
-    "editor.minimap.maxColumn": 55,
+    "editor.dragAndDrop": false, // 選択した部分のドラッグアンドドロップを許可するかどうか
+    "editor.renderIndentGuides": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
+    "editor.fontSize": 13,
+    "editor.letterSpacing": 0.01, // 文字の間隔
+    "editor.minimap.maxColumn": 55,
+    "editor.wordWrap": "off", // 折り返しの有無
+    "editor.rulers": [80], // 80文字の位置に線を引く
 
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
@@ -16,6 +22,7 @@
 
     "workbench.colorTheme": "Solarized Custom Dark Italic",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.activityBar.visible": false,
     "workbench.tree.indent": 15,
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#fcadfc7a"
@@ -30,12 +37,14 @@
     "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
     "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
 
-    // 前回開いてたのを開かない
-    "window.restoreWindows": "none",
+    "window.restoreWindows": "none", // 前回開いてたのを開かない
     "window.zoomLevel": 0,
 
     "extensions.ignoreRecommendations": true,
     "git.autofetch": true,
+
+    // ブレッドキャンバス
+    "breadcrumbs.enabled": true,
 
     // マークダウンの設定
     "[markdown]": {
