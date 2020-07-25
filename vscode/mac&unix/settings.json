@@ -5,7 +5,8 @@
     "editor.suggestSelection": "first",
     "editor.fontSize": 11,
     "editor.minimap.maxColumn": 55,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off", // 折り返しの有無
+    "editor.rulers": [80], // 80文字の位置に線を引く
 
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
@@ -16,7 +17,8 @@
     },
 
     "workbench.colorTheme": "Solarized Custom Dark Italic",
-    "workbench.iconTheme": "vs-nomo-dark",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.activityBar.visible": false,
     "workbench.tree.indent": 15,
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#00ccff8a"
