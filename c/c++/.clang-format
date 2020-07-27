@@ -1,0 +1,6 @@
+IndentWidth: 4
+AccessModifierOffset: -4
+AlwaysBreakTemplateDeclarations: true
+Standard: Cpp11
+BreakBeforeBraces: Stroustrup
+AlignConsecutiveAssignments: true

@@ -40,14 +40,11 @@
     "window.restoreWindows": "none", // 前回開いてたのを開かない
     "window.zoomLevel": 0,
 
-    // 拡張機能
-    "extensions.ignoreRecommendations": true, // 拡張機能のおすすめを非表示
-    "extensions.autoUpdate": true, // 拡張機能を自動更新
+    "extensions.ignoreRecommendations": true,
+    "git.autofetch": true,
 
     // ブレッドキャンバス
     "breadcrumbs.enabled": true,
-
-    "git.autofetch": true,
 
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "vsicons.dontShowNewVersionMessage": true,
@@ -71,6 +68,20 @@
     // c++
     "C_Cpp.updateChannel": "Insiders",
     "lldb.launch.expressions": "native",
+
+    "[cpp]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+
+    "[c]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
 
     // python
     "python.jediEnabled": false,
