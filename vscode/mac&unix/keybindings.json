@@ -27,5 +27,38 @@
         "key": "cmd+k v",
         "command": "-markdown-preview-enhanced.openPreviewToTheSide",
         "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.view.extension.gitlens"
+    },
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+cmd+n",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "cmd+h",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-git.commitAll",
+        "when": "!inDebugMode && !terminalFocus"
     }
 ]
