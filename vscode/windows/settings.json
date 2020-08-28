@@ -6,7 +6,7 @@
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
     "editor.letterSpacing": 0.01, // 文字の間隔
     "editor.minimap.maxColumn": 55,
     "editor.wordWrap": "off", // 折り返しの有無
@@ -68,8 +68,8 @@
     "code-runner.saveFileBeforeRun": true,
 
     // go
-    "go.gopath": "C:/Users/nakamura-ma/go",
-    "go.goroot": "C:/go",
+    "go.gopath": "C:/Go",
+    "go.goroot": "C:/Go",
     "go.toolsEnvVars": {"GO111MODULE": "on"},
     "go.formatTool": "gofmt",
     "go.lintTool": "golint",
@@ -112,11 +112,11 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.linting.flake8Path": "D:/nvim_py3/Scripts",
+    "python.linting.flake8Path": "D:\\nvim_py3\\Scripts\\flake8.exe",
     "python.linting.flake8Args": ["--max-line-length=120"],
     "python.linting.lintOnSave": true,
     "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Path": "D:/nvim_py3/Scripts",
+    "python.formatting.autopep8Path": "D:\\nvim_py3\\Scripts\\autopep8.exe",
     "python.formatting.autopep8Args": [
         "--aggressive", "--aggressive"
     ],
