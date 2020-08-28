@@ -109,6 +109,7 @@
     },
 
     // python
+    "python.languageServer": "Microsoft",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
@@ -118,7 +119,7 @@
     "python.formatting.provider": "autopep8",
     "python.formatting.autopep8Path": "D:\\nvim_py3\\Scripts\\autopep8.exe",
     "python.formatting.autopep8Args": [
-        "--aggressive", "--aggressive"
+        "--aggressive", "--aggressive", "--max-line-length=120"
     ],
     "[python]": {
         "editor.formatOnSave": true
