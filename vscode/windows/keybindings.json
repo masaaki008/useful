@@ -26,7 +26,7 @@
         "command": "editor.action.transformToLowercase"
     },
     {
-        "key": "ctrl+m oem_comma",
+        "key": "alt+m",
         "command": "markdown.showPreviewToSide",
         "when": "editorLangId == 'markdown'"
     },
@@ -34,5 +34,31 @@
         "key": "ctrl+k v",
         "command": "-markdown.showPreviewToSide",
         "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+m oem_comma",
+        "command": "markdown-preview-enhanced.openPreviewToTheSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k v",
+        "command": "-markdown-preview-enhanced.openPreviewToTheSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "shift+alt+n",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "alt+h alt+h",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
     }
 ]

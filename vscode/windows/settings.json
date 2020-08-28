@@ -106,5 +106,21 @@
         "completionDocumentation": true,
         "completeUnimported": true,
         "deepCompletion": true
+    },
+
+    // python
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "D:/nvim_py3/Scripts",
+    "python.linting.flake8Args": ["--max-line-length=120"],
+    "python.linting.lintOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "D:/nvim_py3/Scripts",
+    "python.formatting.autopep8Args": [
+        "--aggressive", "--aggressive"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true
     }
 }
