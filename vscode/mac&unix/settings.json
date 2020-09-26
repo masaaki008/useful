@@ -25,6 +25,7 @@
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.activityBar.visible": false,
     "workbench.tree.indent": 15,
+    "workbench.startupEditor": "none", // WelcomePage表示しない
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#fcadfc7a"
     },
