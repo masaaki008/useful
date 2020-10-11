@@ -85,8 +85,8 @@
     },
 
     // go
-    "go.gopath": "/Users/masaaki/go/1.15.2",
-    "go.goroot": "/Users/masaaki/.anyenv/envs/goenv/versions/1.15.2",
+    "go.gopath": "~/go/1.15.2",
+    "go.goroot": "~/.anyenv/envs/goenv/versions/1.15.2",
     "go.toolsEnvVars": {"GO111MODULE": "on"},
     "go.formatTool": "gofmt",
     "go.lintTool": "golint",
