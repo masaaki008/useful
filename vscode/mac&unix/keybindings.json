@@ -1,26 +1,62 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
+    // 設定
+    // markdownを別パネルで開く
     {
         "key": "ctrl+m",
         "command": "markdown.showPreviewToSide",
         "when": "editorLangId == 'markdown'"
     },
+    // markdownを別パネルで開く
     {
-        "key": "cmd+k v",
-        "command": "-markdown.showPreviewToSide",
+        "key": "alt+m",
+        "command": "markdown-preview-enhanced.openPreviewToTheSide",
         "when": "editorLangId == 'markdown'"
     },
+    // パラメータヒントを表示
+    {
+        "key": "shift+cmd+space",
+        "command": "editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    // 文字を大文字にする
     {
         "key": "ctrl+shift+u",
         "command": "editor.action.transformToUppercase"
     },
+    // 文字を小文字にする
     {
         "key": "ctrl+shift+l",
         "command": "editor.action.transformToLowercase"
     },
+    // 新規ファイル作成
     {
-        "key": "alt+m",
-        "command": "markdown-preview-enhanced.openPreviewToTheSide",
+        "key": "cmd+n",
+        "command": "explorer.newFile"
+    },
+    // 新規フォルダ作成
+    {
+        "key": "ctrl+cmd+n",
+        "command": "explorer.newFolder"
+    },
+    // gitlensを表示
+    {
+        "key": "alt+2",
+        "command": "workbench.view.extension.gitlens"
+    },
+    {
+        "key": "cmd+h",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    // 指定行に移動
+    {
+        "key": "alt+l",
+        "command": "workbench.action.gotoLine"
+    },
+
+    // 解除
+    {
+        "key": "cmd+k v",
+        "command": "-markdown.showPreviewToSide",
         "when": "editorLangId == 'markdown'"
     },
     {
@@ -29,28 +65,8 @@
         "when": "editorLangId == 'markdown'"
     },
     {
-        "key": "alt+2",
-        "command": "workbench.view.extension.gitlens"
-    },
-    {
-        "key": "cmd+n",
-        "command": "explorer.newFile"
-    },
-    {
-        "key": "ctrl+cmd+n",
-        "command": "explorer.newFolder"
-    },
-    {
-        "key": "cmd+h",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
         "key": "cmd+b",
         "command": "-workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "alt+l",
-        "command": "workbench.action.gotoLine"
     },
     {
         "key": "ctrl+g",
@@ -64,11 +80,6 @@
     {
         "key": "cmd+p",
         "command": "-editor.action.triggerParameterHints",
-        "when": "editorHasSignatureHelpProvider && editorTextFocus"
-    },
-    {
-        "key": "shift+cmd+space",
-        "command": "editor.action.triggerParameterHints",
         "when": "editorHasSignatureHelpProvider && editorTextFocus"
     }
 ]
