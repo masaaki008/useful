@@ -18,13 +18,18 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": false,
     "files.exclude": {
-        "**/.git": false
+        "**/.git": false,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
     },
 
     "workbench.colorTheme": "Solarized Custom Dark Italic",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.activityBar.visible": false,
     "workbench.tree.indent": 15,
+    "workbench.startupEditor": "none",
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#fcadfc7a"
     },
@@ -109,7 +114,7 @@
     },
 
     // python
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Pylance",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
@@ -123,5 +128,6 @@
     ],
     "[python]": {
         "editor.formatOnSave": true
-    }
+    },
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7Zmxvd2NoYXJ0O2Jvb3RzdHJhcDtkZmQ7ZXI7dW1sXCIsXCJjdXN0b21MaWJyYXJpZXNcIjpbXCJMLnNjcmF0Y2hwYWRcIl0sXCJwbHVnaW5zXCI6W10sXCJyZWNlbnRDb2xvcnNcIjpbXSxcImZvcm1hdFdpZHRoXCI6XCIyNDBcIixcImNyZWF0ZVRhcmdldFwiOmZhbHNlLFwicGFnZUZvcm1hdFwiOntcInhcIjowLFwieVwiOjAsXCJ3aWR0aFwiOjgyNyxcImhlaWdodFwiOjExNjl9LFwic2VhcmNoXCI6dHJ1ZSxcInNob3dTdGFydFNjcmVlblwiOnRydWUsXCJncmlkQ29sb3JcIjpcIiNkMGQwZDBcIixcImRhcmtHcmlkQ29sb3JcIjpcIiM2ZTZlNmVcIixcImF1dG9zYXZlXCI6dHJ1ZSxcInJlc2l6ZUltYWdlc1wiOm51bGwsXCJvcGVuQ291bnRlclwiOjAsXCJ2ZXJzaW9uXCI6MTgsXCJ1bml0XCI6MSxcImlzUnVsZXJPblwiOmZhbHNlLFwidWlcIjpcIlwifSJ9"
 }
