@@ -1,8 +1,5 @@
 code --install-extension 8amjp.charactercount
-code --install-extension alexcvzz.vscode-sqlite
-code --install-extension batisteo.vscode-django
 code --install-extension bbrakenhoff.solarized-light-custom
-code --install-extension bibhasdn.django-html
 code --install-extension chrmarti.regex
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension donjayamanne.githistory
@@ -30,11 +27,12 @@ code --install-extension mgmcdermott.vscode-language-babel
 code --install-extension mrmlnc.vscode-duplicate
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension MS-CEINTL.vscode-language-pack-ja
-code --install-extension ms-mssql.mssql
 code --install-extension ms-python.python
+code --install-extension ms-toolsai.jupyter
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode.cpptools
 code --install-extension mtxr.sqltools
+code --install-extension nonylene.dark-molokai-theme
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
 code --install-extension peakchen90.open-html-in-browser
@@ -45,13 +43,11 @@ code --install-extension ryu1kn.partial-diff
 code --install-extension shardulm94.trailing-spaces
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension steoates.autoimport
-code --install-extension tht13.python
 code --install-extension tomoki1207.pdf
 code --install-extension tushortz.python-extended-snippets
 code --install-extension vadimcn.vscode-lldb
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscode-icons-team.vscode-icons
-code --install-extension wholroyd.jinja
 code --install-extension xabikos.JavaScriptSnippets
 code --install-extension xaver.clang-format
 code --install-extension yzane.markdown-pdf

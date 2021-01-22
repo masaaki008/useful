@@ -21,7 +21,7 @@
         "**/.git": false
     },
 
-    "workbench.colorTheme": "Solarized Custom Dark Italic",
+    "workbench.colorTheme": "Dark (Molokai)",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.activityBar.visible": false,
     "workbench.tree.indent": 15,
